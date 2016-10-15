@@ -39,19 +39,17 @@ het wifi wachtwoord van de jonge onderzoekers is DOJG1402.
 ```
 int led = 13;
 
-
-void setup(){
-
-pinMode(led, OUTPUT);
+void setup()
+{
+  pinMode(led, OUTPUT);
 }
 
-
-
-void loop(){
-digitalWrite(led, HIGH);
-delay(1000);
-digtalWrite(led, LOW);
-delay(1000);
+void loop()
+{
+  digitalWrite(led, HIGH);
+  delay(1000);
+  digtalWrite(led, LOW);
+  delay(1000);
 }
 ```
-als je iets niet snapt vraag je gewoon naar richel,anko of peter.
+als je iets niet snapt vraag je gewoon naar Richel, Anko of Peter.
